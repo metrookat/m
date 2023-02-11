@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:60,TRT HABER
 https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="TRT1.tr" status="online",TRT 1 (720p)
+https://trt1.persona.video/master.m3u8?hls=1
 #EXTINF:1799,NTV
 https://dogus-live.daioncdn.net/ntv/ntv_720p.m3u8
 #EXTINF:21,A HABER
@@ -18,16 +20,24 @@ https://tv.ensonhaber.com/tv/tr/24tv/index.m3u8
 https://tv.ensonhaber.com/tv/tr/tvnet/index.m3u8
 #EXTINF:100,TGRTHABER
 https://tv.ensonhaber.com/tv/tr/tgrthaber/index.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr" status="online",TRT World (720p) [Not 24/7]
+https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:1800,DMAX
 https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8
 #EXTINF:1800,TLC
 https://dogus-live.daioncdn.net/tlc/tlc_720p.m3u8
+#EXTINF:-1 tvg-id="DiyanetTV.tr" status="online",Diyanet TV (720p)
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 #EXTINF:60,TRT ÇOCUK
 https://tv-trtcocuk.live.trt.com.tr/master_720.m3u8
 #EXTINF:60,TRT 2
 https://tv-trt2.medya.trt.com.tr/master_720.m3u8
 #EXTINF:1800,SHOWMAX
 http://free.fullspeed.tv/iptv-query?streaming-ip=http://showmax.com.tr/canliyayin
+#EXTINF:-1 tvg-id="SemerkandTV.tr" status="online",Semerkand TV (720p) [Not 24/7]
+https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="StarTV.tr" status="error",Star TV (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=http://www.dailymotion.com/video/x729whv
 #EXTINF:60,TRT TÜRK
 https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:60,TRT AVAZ
